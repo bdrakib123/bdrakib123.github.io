@@ -24,3 +24,16 @@ button {
   background: #121212;
   color: white;
 }
+.dark header {
+  background: #000;
+}
+
+.dark section {
+  background: #1e1e1e;
+}
+
+.dark button {
+  background: #333;
+  color: white;
+  border: 1px solid #555;
+}
