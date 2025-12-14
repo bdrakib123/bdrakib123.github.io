@@ -98,3 +98,45 @@ button {
     font-size: 28px;
   }
   }
+/* Projects */
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.project {
+  padding: 15px;
+  border-radius: 10px;
+  background: #f0f0f0;
+}
+
+.project a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #4e54c8;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Contact */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  resize: none;
+  height: 100px;
+}
+
+.dark .project {
+  background: #2a2a2a;
+  }
